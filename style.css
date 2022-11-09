@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: lato, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo span {
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+section {
+    overflow-x: hidden;
+}
+
+.promoção__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.promoção__header_titulo {
+    font-weight: 700;
+    color: #161616;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    color: #cccc;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.produtos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 3px;
+}
+
+.produtos img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.produtos span {
+    font-weight: 700;
+}
+
+.prince {
+    color: #5ca720;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5%;
+}
+
+.footer {
+    background-color: #eee;
+}
+
+.footer__top {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #ddd;
+    padding: 20px 5%;
+}
+
+.footer_top_left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer_top_left a {
+    font-weight: 700;
+    color: #161616;
+    text-decoration: none;
+}
+
+.footer_top_rigth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer_top_rigth span {
+    font-weight: 700;
+    color: #161616;
+}
+
+.footer_newsletter {
+    display: flex;
+    align-items: center;
+}
+
+.footer_input {
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.button__footer {
+    height: 40px;
+    width: 90px;
+    border: 1px solid #eee;
+    background-color: #5ca720;
+    color: white;
+}
+
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5%;
+    border-top: 2px solid #dddd;
+}
+
+.footer_bottom_left,
+.footer_bottom_rigth {
+    display: flex;
+    gap: 10px;
+}
+
+.footer__imagem {
+    height: 20px;
+    width: 20px;
+}
